@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+   display: flex;
+   justify-content: space-around;
+}
+ .grid{
+   display: grid;
+   grid-gap:1px;
+   grid-template-columns: repeat(3,1fr);
+ }
+
+ .items{
+   min-width: 90px;
+   min-height: 90px;
+   border: 2px solid black;
+   padding: auto;
+   margin: auto;
+ }
+
+ .Input{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
